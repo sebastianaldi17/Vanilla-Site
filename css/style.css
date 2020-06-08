@@ -1,0 +1,92 @@
+@keyframes glow {
+    0% {text-shadow: 0px 0px;}
+    50% {text-shadow: 0px 0px 3px black;}
+    100% {text-shadow: 0px 0px;}
+}
+.carousel-caption > * {
+    color: red;
+}
+
+.carousel-inner > .carousel-item {
+    width: 100%;
+ }
+
+.glow {
+    color: #43424d;
+    animation: glow 3000ms infinite;
+}
+
+.iconset > a, .icon-row > i {
+    color: inherit;
+    margin: 20px;
+}
+
+.navbar {
+    background: #efeff3;
+}
+
+.fab {
+    color: white;
+}
+
+.first-row {
+    align-items: center;
+    background-color: #03071E;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.first-row > div > *, .second-row > *, .third-row > *, .fourth-row > *{
+    color: white;
+}
+
+.second-row {
+    background-color: #370617;
+}
+
+.third-row {
+    background-color: #6A040F;
+}
+
+.fourth-row {
+    background-color: #9D0208;
+}
+
+.row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #6A040F
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+}
