@@ -1,2 +1,4 @@
 # WebPortfolio
-A webpage that acts as my portfolio. Page may change over time as I add/fix more games, learn new skills, etc.
+## Page is now abandoned. Visit the newer site instead:  
+### Personal site: <https://sebastianaldi-17.netlify.app/>
+### Github: <https://github.com/sebastianaldi17/react-personal-site>  
